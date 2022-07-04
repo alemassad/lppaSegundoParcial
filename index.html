@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-sesion">
+ 
+        <form class="formulario" id="formulario">
+            <h2 class="crear-cuenta">Registrarse</h2>
+
+            <label for="input-nombre">Nombre</label>            
+            <input type="text" class="input-nombre" id="input-nombre">
+            <small id="error-nombre" class="error-nombre" hidden>Introducir un Nombre correcto</small>
+            <small id="valido-nombre" class="valido-nombre" hidden>Nombre válido</small>
+
+            <label for="input-correo">Email</label>
+            <input type="text" class="input-correo" id="input-correo">
+            <small id="error-correo" class="error-correo" hidden>Introducir un Correo correcto</small>
+            <small id="valido-correo" class="valido-correo" hidden>Correo correcto</small>
+
+            <input type="submit" id="btn-mandar" class="btn-mandar" value="Iniciar Sesión">
+            
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

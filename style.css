@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagen/fondos-de-pantalla-para-pc-4k-gratis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+h2 {
+    font-size: 40px;
+    padding: 20px;
+}
+.formulario {
+    width: 400px;
+    padding: 30px;
+    margin: 200px;
+    background-color: rgb(51, 51,51,0.6);
+    text-align: center;
+}
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: 15px;
+    font-size: 10px;
+    color: white;
+    font-size: 18px;
+}
+.formulario input[type="submit"]{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(120, 88, 238, 0.5);    
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #222;
+}
+.error-nombre, .error-correo {
+    font-size: 15px;
+    text-align:initial;
+    color: red;
+  }  
+.valido-nombre, .valido-correo {
+    font-size: 15px;
+    text-align:initial;
+    color: rgb(13, 139, 13);
+  }
+input[type="submit"]:hover {
+    background-color: aqua;
+}
