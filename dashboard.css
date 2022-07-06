@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100%;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagen/fondos-de-pantalla-para-pc-4k-gratis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #dff5de;
+}
+main {
+    display:flex;    
+    justify-content: center;
+}
+table {
+    flex-wrap: wrap;
+    background-color: rgba(85, 81, 81, 0.5);
+
+}
+td tr{
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align:left;
+  }
