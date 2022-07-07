@@ -5,29 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parcial</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <header class="cabecera">
+        Login
+    </header>    
+    <nav>            
+        <ul class="nav-List">
+            <li>Menu</li>
+            <li>Articulos</li>
+            <li>Textos</li>
+            <li>Interés</li>
+            <li>Contactos</li>                
+        </ul>
+    </nav>    
     <div class="contenedor-sesion">
- 
+
         <form class="formulario" id="formulario">
             <h2 class="crear-cuenta">Registrarse</h2>
-
-            <label for="input-nombre">Nombre</label>            
-            <input type="text" class="input-nombre" id="input-nombre">
-            <small id="error-nombre" class="error-nombre" hidden>Introducir un Nombre correcto</small>
-            <small id="valido-nombre" class="valido-nombre" hidden>Nombre válido</small>
-
+            
             <label for="input-correo">Email</label>
             <input type="text" class="input-correo" id="input-correo">
             <small id="error-correo" class="error-correo" hidden>Introducir un Correo correcto</small>
             <small id="valido-correo" class="valido-correo" hidden>Correo correcto</small>
 
-            <input type="submit" id="btn-mandar" class="btn-mandar" value="Iniciar Sesión">
-            
+            <label for="input-nombre">Contraseña</label>            
+            <input type="password" class="input-nombre" id="input-nombre">
+            <small id="error-nombre" class="error-nombre" hidden>Introducir una contraseña correcto</small>
+            <small id="valido-nombre" class="valido-nombre" hidden>contraseña válido</small>
+            <input type="submit" id="btn-mandar" class="btn-mandar" value="Iniciar Sesión">      
         </form>
     </div>
+        
     
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
+
+<footer>
+    <p>2º Parcial LPPA</p>
+</footer>
 </body>
 </html>
