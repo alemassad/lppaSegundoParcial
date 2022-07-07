@@ -1,6 +1,6 @@
 # Parcial de programacion para la administracio
 ***
-Este desarrollo se desasrrolló con código HTML, CSS y JavaScript.
+Se desasrrolló con código HTML, CSS y JavaScript.
 Cuenta con 2 páginas:
 - Página de login (Inicio de sesión).
 - Página de dashboard (tabla con información).
@@ -20,4 +20,4 @@ Si la respuesta es exitosa:
 En el header de esta pantalla existe un botón “Logout” que borra el valor de login guardado en
 LocalStorage y se redirecciona a la pantalla de Login.
 *****
-Programa hefcho por Luis Massad alumno UAI para la materia Lenguaje de programacion para la administración.
+Programa hecho por Luis Massad alumno UAI para la materia Lenguaje de programacion para la administración.
